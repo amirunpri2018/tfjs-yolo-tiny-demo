@@ -11,7 +11,7 @@ const webcam = new Webcam(document.getElementById('webcam'));
 (async function main() {
   try {
     ga();
-    model = await downloadModel('https://raw.githubusercontent.com/rachuang22/trial14_voc_js/master/model.json');
+    model = await downloadModel('https://raw.githubusercontent.com/rachuang22/voc_yolo_js/master/model.json');
 
     await webcam.setup();
 
