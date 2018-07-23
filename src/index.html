@@ -13,7 +13,7 @@
   <link href="./main.css" type="text/css" rel="stylesheet">
 
 
-  
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -34,8 +34,8 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">LIVE DEMO <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="model_coco.html">COCO</a></li>
           <li><a href="model_voc.html">VOC</a></li>
+          <li><a href="model_coco.html">COCO</a></li>
         </ul>
         </li>
         <!-- <li><a href="model_coco.html">LIVE DEMO</a></li> -->
@@ -134,7 +134,7 @@
         <div class="panel-body">
           <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/20861957_10154983606587153_115978224345654271_o.jpg?_nc_cat=0&oh=b86985be6863823cef50ada1800b3d54&oe=5BAF56AC" class="img-circle" width="200" height="200"alt="Jonathan Pedoeem">
         </div>
-        <div class="panel-footer">
+        <div class="panel-footer" style="height:221px">
           <p><h8><strong>Institution: </strong> The Cooper Union</h8></p>
           <p><h8><strong>Major: </strong> Electrical Engineering</h8></p>
           <a href="https://www.linkedin.com/in/jonathan-pedoeem-0940a896/"><strong>LinkedIn</strong></a>
@@ -153,7 +153,7 @@
         <div class="panel-body">
           <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-1/c0.235.1578.1578/23213090_10213414732475707_7990233878450376489_o.jpg?_nc_cat=0&oh=dffcc1accbe115954de3f3b54d01b365&oe=5BDEBDC9" class="img-circle" width="200" height="200"alt="Rachel Huang">
         </div>
-        <div class="panel-footer">
+        <div class="panel-footer " style="height:221px">
           <p><h8><strong>Institution: </strong> Georgia Institute of Technology </h8></p>
           <p><h8><strong>Major: </strong> Computer Engineering</h8></p>
           <p><a href="https://www.linkedin.com/in/rachuang22/"><strong>LinkedIn</strong></a></p>
@@ -172,7 +172,7 @@
         <div class="panel-body">
           <img src="http://people.uncw.edu/chenc/20110801chen_tracy001.jpg" class="img-circle" width="120" height="150" alt="Dr. Cuixian Chen">
         </div>
-        <div class="panel-footer">
+        <div class="panel-footer" style="height:200px">
            <p><h8>Associate Professor in Statistics</h8></p>
            <p><h8><strong>Institution: </strong> University of North Carolina Wilmington </h8></p>
            <p><a href="http://people.uncw.edu/chenc/"><strong>More Information</strong></a></p>
@@ -188,10 +188,9 @@
         <div class="panel-body">
           <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/23319145_903456333134834_6249445024725516823_n.jpg?_nc_cat=0&oh=273d769cfa09290fe0a6717bbac7e9f3&oe=5BAA9B81" class="img-circle" width="150" height="150"alt="Summerlin Thompson">
         </div>
-        <div class="panel-footer">
+        <div class="panel-footer" style="height:200px">
           <p><h8><strong>Institution: </strong> University of North Carolina Wilmington </h8></p>
           <p><h8><strong>Major: </strong> Math and Statistics </h8></p>
-          <p><h><strong>LinkedIn</strong></h8></p>
         </div>
       </div>
     </div>
@@ -204,7 +203,7 @@
         <div class="panel-body">
           <img src="Wang.jpg" class="img-circle" width="150" height="150" alt="Dr. Yishi Wang">
         </div>
-        <div class="panel-footer">
+        <div class="panel-footer" style="height:200px">
           <p><h8>Associate Professor in Statistics</h8></p>
            <p><h8><strong>Institution: </strong> University of North Carolina Wilmington </h8></p>
            <p><a href="http://people.uncw.edu/wangy/"><strong>More Information</strong></a></p>
@@ -217,6 +216,8 @@
 </div>
 
 <script>
+document.body.style.zoom = .75
+
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
